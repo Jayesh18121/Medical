@@ -1,0 +1,31 @@
+{
+    "Hospitals":[
+        {
+            "name": "City General Hospital",
+            "location": "123 Main Street, Cityville",
+            "contact": {
+              "phone": "+1-555-123-4567",
+              "email": "info@citygeneralhospital.com"
+            },
+            "services": ["Emergency Care", "Surgery", "Pediatrics", "Internal Medicine"]
+          },
+          {
+            "name": "Sunset Community Hospital",
+            "location": "456 Elm Avenue, Sunset Valley",
+            "contact": {
+              "phone": "+1-555-987-6543",
+              "email": "contact@sunsetcommunityhospital.com"
+            },
+            "services": ["Maternity", "Orthopedics", "Radiology", "Cardiology"]
+          },
+          {
+            "name": "Greenfield Medical Center",
+            "location": "789 Oak Drive, Greenfield",
+            "contact": {
+              "phone": "+1-555-789-0123",
+              "email": "admin@greenfieldmedicalcenter.com"
+            },
+            "services": ["Dermatology", "Neurology", "Ophthalmology", "Physical Therapy"]
+          }
+    ]
+}
