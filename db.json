@@ -1,31 +1,247 @@
 {
-    "Hospitals":[
+  "Admin": [
+    {
+      "id": "1",
+      "email": "cubastion@cubastion.com",
+      "password": "cubastion@123"
+    }
+  ],
+  "Users":[
+    {
+        "id": 1,
+        "name": "Dr. Rajesh Kumar",
+        "email": "rajesh.kumar@example.com",
+        "password": "encrypted_password_here",
+        "mobileNo": "+91-9876543210",
+        "dateOfBirth": "1980-05-15",
+        "gender": "male",
+        "role": "doctor"
+      },
+      {
+        "id": 2,
+        "fullName": "Jane Smith",
+        "email": "janesmith@example.com",
+        "password": "encrypted_password_here",
+        "mobileNo": "+1-555-987-6543",
+        "dateOfBirth": "1990-10-20",
+        "gender": "female",
+        "role": "patient"
+      },
+      {
+        "id": 3,
+        "name": "Dr. Priya Singh",
+        "email": "priya.singh@example.com",
+        "password": "encrypted_password_here",
+        "mobileNo": "+91-9876543211",
+        "dateOfBirth": "1975-03-08",
+        "gender": "female",
+        "role": "doctor"
+      },
+      {
+        "id": 4,
+        "fullname": "Abhishek",
+        "email": "abhishek123@gmail.com",
+        "password": "abhishek@123",
+        "mobileNo": "9998887776",
+        "dateofbirth": "01-01-1980",
+        "gender": "male",
+        "role": "patient"
+      }
+  ],
+  "Doctors":[
         {
-            "name": "City General Hospital",
-            "location": "123 Main Street, Cityville",
-            "contact": {
-              "phone": "+1-555-123-4567",
-              "email": "info@citygeneralhospital.com"
-            },
-            "services": ["Emergency Care", "Surgery", "Pediatrics", "Internal Medicine"]
-          },
-          {
-            "name": "Sunset Community Hospital",
-            "location": "456 Elm Avenue, Sunset Valley",
-            "contact": {
-              "phone": "+1-555-987-6543",
-              "email": "contact@sunsetcommunityhospital.com"
-            },
-            "services": ["Maternity", "Orthopedics", "Radiology", "Cardiology"]
-          },
-          {
-            "name": "Greenfield Medical Center",
-            "location": "789 Oak Drive, Greenfield",
-            "contact": {
-              "phone": "+1-555-789-0123",
-              "email": "admin@greenfieldmedicalcenter.com"
-            },
-            "services": ["Dermatology", "Neurology", "Ophthalmology", "Physical Therapy"]
-          }
-    ]
+          "id": 1,
+          "name": "Dr. Rajesh Kumar",
+          "email": "rajesh.kumar@example.com",
+          "registrationNo": "IND123456",
+          "specialization": "Cardiologist",
+          "mobileNo": "+91-9876543210",
+          "yearsOfExperience": 15,
+          "consultationFees": 1000
+        },
+        {
+          "id": 2,
+          "name": "Dr. Priya Singh",
+          "email": "priya.singh@example.com",
+          "registrationNo": "IND654321",
+          "specialization": "Pediatrician",
+          "mobileNo": "+91-9876543211",
+          "yearsOfExperience": 10,
+          "consultationFees": 800
+        },
+        {
+          "id": 3,
+          "name": "Dr. Amit Patel",
+          "email": "amit.patel@example.com",
+          "registrationNo": "IND987654",
+          "specialization": "Dermatologist",
+          "mobileNo": "+91-9876543212",
+          "yearsOfExperience": 20,
+          "consultationFees": 1200
+        }
+      
+  ],
+  "Patients":
+    [
+        {
+          "id": 1,
+          "name": "Sneha Gupta",
+          "email": "sneha.gupta@example.com",
+          "mobileNo": "+91-9876543210",
+          "dateOfBirth": "1990-12-25",
+          "gender": "female",
+          "address": "123, ABC Street, Mumbai, Maharashtra, 400001",
+          "medicalHistory": "Hypertension, Type 2 Diabetes"
+        },
+        {
+          "id": 2,
+          "name": "Kunal Sharma",
+          "email": "kunal.sharma@example.com",
+          "mobileNo": "+91-9876543211",
+          "dateOfBirth": "1985-07-15",
+          "gender": "male",
+          "address": "456, XYZ Road, Delhi, Delhi, 110001",
+          "medicalHistory": "Asthma, Hyperthyroidism"
+        },
+        {
+          "id": 3,
+          "name": "Neha Singhania",
+          "email": "neha.singhania@example.com",
+          "mobileNo": "+91-9876543212",
+          "dateOfBirth": "1995-03-10",
+          "gender": "female",
+          "address": "789, PQR Lane, Kolkata, West Bengal, 700001",
+          "medicalHistory": "Migraine, Depression"
+        },
+        {
+          "id": 4,
+          "name": "Rahul Khanna",
+          "email": "rahul.khanna@example.com",
+          "mobileNo": "+91-9876543213",
+          "dateOfBirth": "1980-09-20",
+          "gender": "male",
+          "address": "101, LMN Street, Bangalore, Karnataka, 560001",
+          "medicalHistory": "Arthritis, High Cholesterol"
+        }
+      ],
+      "Hospitals":[
+        {
+          "id": 1,
+          "name": "Apollo Hospital",
+          "location": "Chennai",
+          "address1": "21, Greams Lane",
+          "address2": "Off Greams Road"
+        },
+        {
+          "id": 2,
+          "name": "Fortis Hospital",
+          "location": "Mumbai",
+          "address1": "Mulund Goregaon Link Road",
+          "address2": "Near Nahur Station, Mulund West"
+        },
+        {
+          "id": 3,
+          "name": "Max Super Speciality Hospital",
+          "location": "New Delhi",
+          "address1": "1, Press Enclave Road",
+          "address2": "Saket"
+        },
+        {
+          "id": 4,
+          "name": "Columbia Asia Hospital",
+          "location": "Bengaluru",
+          "address1": "Kirloskar Business Park",
+          "address2": "Bellary Road"
+        }
+      ],
+      "AddSchedules":[
+        {
+          "id": 1,
+          "hospitalName": "Rainbow Hospital",
+          "doctorName": "Dr. Arjun Reddy",
+          "registrationNo": "IND1234567",
+          "specialization": "Orthopedic Surgeon",
+          "date": "2024-04-10",
+          "startTime": "08:00 AM",
+          "endTime": "10:00 AM"
+        },
+        {
+          "id": 2,
+          "hospitalName": "Sunrise Clinic",
+          "doctorName": "Dr. Maya Patel",
+          "registrationNo": "IND7654321",
+          "specialization": "Oncologist",
+          "date": "2024-04-11",
+          "startTime": "11:00 AM",
+          "endTime": "01:00 PM"
+        },
+        {
+          "id": 3,
+          "hospitalName": "Greenleaf Hospital",
+          "doctorName": "Dr. Vikram Singh",
+          "registrationNo": "IND5432198",
+          "specialization": "Neurologist",
+          "date": "2024-04-12",
+          "startTime": "02:30 PM",
+          "endTime": "04:30 PM"
+        }
+      ],
+      "AddAppointments":[
+        {
+          "id": 1,
+          "patientName": "Rajesh Sharma",
+          "patientEmail": "rajesh.sharma@example.com",
+          "hospitalName": "Best Hospital",
+          "specialization": "Orthopedic Surgeon",
+          "doctorName": "Dr. Emily Johnson",
+          "timeSlot": "09:30 AM - 10:00 AM"
+        },
+        {
+          "id": 2,
+          "patientName": "Sonia Khanna",
+          "patientEmail": "sonia.khanna@example.com",
+          "hospitalName": "Sunrise Clinic",
+          "specialization": "Oncologist",
+          "doctorName": "Dr. David Miller",
+          "timeSlot": "10:30 AM - 11:00 AM"
+        },
+        {
+          "id": 3,
+          "patientName": "Aryan Singh",
+          "patientEmail": "aryan.singh@example.com",
+          "hospitalName": "Greenleaf Hospital",
+          "specialization": "Neurologist",
+          "doctorName": "Dr. Christopher Brown",
+          "timeSlot": "03:00 PM - 03:30 PM"
+        }
+      ],
+      "AvailableSlots":[
+        {
+          "id": 1,
+          "scheduleId": 1,
+          "doctorName": "Dr. Rachel Anderson",
+          "slotTime": "09:30 AM - 10:00 AM",
+          "status": "Available",
+          "patientName": null,
+          "patientEmail": null
+        },
+        {
+          "id": 2,
+          "scheduleId": 2,
+          "doctorName": "Dr. Samuel Thompson",
+          "slotTime": "10:30 AM - 11:00 AM",
+          "status": "Booked",
+          "patientName": "Jessica Parker",
+          "patientEmail": "jessica.parker@example.com"
+        },
+        {
+          "id": 3,
+          "scheduleId": 3,
+          "doctorName": "Dr. Emily Jackson",
+          "slotTime": "03:00 PM - 03:30 PM",
+          "status": "Available",
+          "patientName": null,
+          "patientEmail": null
+        }
+      ]    
 }
