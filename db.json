@@ -15,7 +15,8 @@
         "mobileNo": "+91-9876543210",
         "dateOfBirth": "1980-05-15",
         "gender": "male",
-        "role": "doctor"
+        "role": "doctor",
+        "isApproved":"true"
       },
       {
         "id": 2,
@@ -25,7 +26,8 @@
         "mobileNo": "+1-555-987-6543",
         "dateOfBirth": "1990-10-20",
         "gender": "female",
-        "role": "patient"
+        "role": "patient",
+        "isApproved":"false"
       },
       {
         "id": 3,
@@ -35,7 +37,8 @@
         "mobileNo": "+91-9876543211",
         "dateOfBirth": "1975-03-08",
         "gender": "female",
-        "role": "doctor"
+        "role": "doctor",
+        "isApproved":"false"
       },
       {
         "id": 4,
@@ -45,7 +48,8 @@
         "mobileNo": "9998887776",
         "dateofbirth": "01-01-1980",
         "gender": "male",
-        "role": "patient"
+        "role": "patient",
+        "isApproved":"false"
       }
   ],
   "Doctors":[
