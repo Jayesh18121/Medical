@@ -198,6 +198,7 @@
           "hospitalName": "Best Hospital",
           "specialization": "Orthopedic Surgeon",
           "doctorName": "Dr. Emily Johnson",
+          "date":"2024-04-16",
           "timeSlot": "09:30 AM - 10:00 AM"
         },
         {
@@ -207,6 +208,7 @@
           "hospitalName": "Sunrise Clinic",
           "specialization": "Oncologist",
           "doctorName": "Dr. David Miller",
+          "date":"2024-04-21",
           "timeSlot": "10:30 AM - 11:00 AM"
         },
         {
@@ -216,6 +218,7 @@
           "hospitalName": "Greenleaf Hospital",
           "specialization": "Neurologist",
           "doctorName": "Dr. Christopher Brown",
+          "date":"2024-04-27",
           "timeSlot": "03:00 PM - 03:30 PM"
         }
       ],
