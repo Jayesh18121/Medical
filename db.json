@@ -237,6 +237,17 @@
       "gender": "female",
       "role": "doctor",
       "isApproved": "false"
+    },
+    {
+      "id": 22,
+      "name":"Cubastion@Admin",
+      "email": "cubastion@cubastion.com",
+      "password": "cubastion@123",
+      "mobileNo":"+91-9876543218",
+      "dateOfBirth":"1979-07-05",
+      "gender":"male",
+      "role":"admin",
+      "isApproved":true
     }
   ],
   "Doctors": [
