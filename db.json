@@ -954,6 +954,7 @@
   "AddAppointments": [
     {
         "id": 1,
+        "slotId": 2,
         "patientName": "Anjali Singhania",
         "patientEmail": "anjali.singhania@example.com",
         "hospitalName": "Apollo Hospital",
@@ -965,6 +966,7 @@
       },
       {
         "id": 2,
+        "slotId": 5,
         "patientName": "Sneha Gupta",
         "patientEmail": "sneha.gupta@example.com",
         "hospitalName": "Fortis Hospital",
@@ -976,8 +978,9 @@
       },
       {
         "id": 3,
-        "patientName": "Amita Sharma",
-        "patientEmail": "amita.sharma@example.com",
+        "slotId": 9,
+        "patientName": "Arti Patel",
+        "patientEmail": "arti.patel@example.com",
         "hospitalName": "Max Super Speciality Hospital",
         "specialization": "Dermatologist",
         "doctorName": "Dr. Amit Patel",
@@ -987,19 +990,21 @@
       },
       {
         "id": 4,
+        "slotId": 5,
         "patientName": "Siddharth Mehta",
         "patientEmail": "siddharth.mehta@example.com",
         "hospitalName": "Apollo Hospital",
         "specialization": "Cardiologist",
-        "doctorName": "Dr. Rajesh Kumar",
-        "registrationNo": "IND123456",
+        "doctorName": "Dr. Amit Patel",
+        "registrationNo": "IND987654",
         "date": "2024-04-10",
         "timeSlot": "09:30 AM - 10:00 AM"
       },
       {
         "id": 5,
-        "patientName": "Aarti Patel",
-        "patientEmail": "aarti.patel@example.com",
+        "slotId": 7,
+        "patientName": "Amita Sharma",
+        "patientEmail": "amita.sharma@example.com",
         "hospitalName": "Fortis Hospital",
         "specialization": "Pediatrician",
         "doctorName": "Dr. Priya Singh",
@@ -1009,6 +1014,7 @@
       },
       {
         "id": 6,
+        "slotId": 11,
         "patientName": "Rahul Khanna",
         "patientEmail": "rahul.khanna@example.com",
         "hospitalName": "Columbia Asia Hospital",
@@ -1020,6 +1026,7 @@
       },
       {
         "id": 7,
+        "slotId": 12,
         "patientName": "Rajiv Sharma",
         "patientEmail": "rajiv.sharma@example.com",
         "hospitalName": "Columbia Asia Hospital",
@@ -1031,6 +1038,7 @@
       },
       {
         "id": 8,
+        "slotId":13,
         "patientName": "Nisha Gupta",
         "patientEmail": "nisha.gupta@example.com",
         "hospitalName": "Artemis Hospital",
@@ -1042,6 +1050,7 @@
       },
       {
         "id": 9,
+        "slotId":14,
         "patientName": "Vivek Singh",
         "patientEmail": "vivek.singh@example.com",
         "hospitalName": "Artemis Hospital",
@@ -1094,9 +1103,9 @@
         "scheduleId": 2,
         "doctorName": "Dr. Priya Singh",
         "slotTime": "09:00 AM - 09:30 AM",
-        "status": "Available",
-        "patientName": null,
-        "patientEmail": null
+        "status": "Booked",
+        "patientName": "Sneha Gupta",
+        "patientEmail": "sneha.gupta@example.com",
       },
       {
         "id": 6,
