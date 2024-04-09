@@ -959,6 +959,7 @@
         "hospitalName": "Apollo Hospital",
         "specialization": "Cardiologist",
         "doctorName": "Dr. Rajesh Kumar",
+        "registrationNo": "IND123456",
         "date": "2024-04-10",
         "timeSlot": "08:30 AM - 09:00 AM"
       },
@@ -969,6 +970,7 @@
         "hospitalName": "Fortis Hospital",
         "specialization": "Pediatrician",
         "doctorName": "Dr. Priya Singh",
+        "registrationNo": "IND654321",
         "date": "2024-04-11",
         "timeSlot": "09:00 AM - 09:30 AM"
       },
@@ -979,6 +981,7 @@
         "hospitalName": "Max Super Speciality Hospital",
         "specialization": "Dermatologist",
         "doctorName": "Dr. Amit Patel",
+        "registrationNo": "IND987654",
         "date": "2024-04-12",
         "timeSlot": "10:00 AM - 10:30 AM"
       },
@@ -989,6 +992,7 @@
         "hospitalName": "Apollo Hospital",
         "specialization": "Cardiologist",
         "doctorName": "Dr. Rajesh Kumar",
+        "registrationNo": "IND123456",
         "date": "2024-04-10",
         "timeSlot": "09:30 AM - 10:00 AM"
       },
@@ -999,6 +1003,7 @@
         "hospitalName": "Fortis Hospital",
         "specialization": "Pediatrician",
         "doctorName": "Dr. Priya Singh",
+        "registrationNo": "IND654321",
         "date": "2024-04-11",
         "timeSlot": "10:00 AM - 10:30 AM"
       },
@@ -1009,6 +1014,7 @@
         "hospitalName": "Columbia Asia Hospital",
         "specialization": "Neurologist",
         "doctorName": "Dr. Sanjay Gupta",
+        "registrationNo": "IND876543",
         "date": "2024-04-13",
         "timeSlot": "10:30 AM - 11:00 AM"
       },
@@ -1019,6 +1025,7 @@
         "hospitalName": "Columbia Asia Hospital",
         "specialization": "Neurologist",
         "doctorName": "Dr. Sanjay Gupta",
+        "registrationNo": "IND876543",
         "date": "2024-04-13",
         "timeSlot": "11:00 AM - 11:30 AM"
       },
@@ -1029,6 +1036,7 @@
         "hospitalName": "Artemis Hospital",
         "specialization": "Oncologist",
         "doctorName": "Dr. Aarav Singh",
+        "registrationNo": "IND765432",
         "date": "2024-04-14",
         "timeSlot": "10:00 AM - 10:30 AM"
       },
@@ -1039,6 +1047,7 @@
         "hospitalName": "Artemis Hospital",
         "specialization": "Oncologist",
         "doctorName": "Dr. Aarav Singh",
+        "registrationNo": "IND765432",
         "date": "2024-04-14",
         "timeSlot": "10:30 AM - 11:00 AM"
       }
