@@ -1076,7 +1076,7 @@
         "scheduleId": 1,
         "doctorName": "Dr. Rajesh Kumar",
         "slotTime": "08:30 AM - 09:00 AM",
-        "status": "Available",
+        "status": "Booked",
         "patientName": "Anjali Singhania",
         "patientEmail": "anjali.singhania@example.com"
       },
@@ -1121,7 +1121,7 @@
         "scheduleId": 2,
         "doctorName": "Dr. Priya Singh",
         "slotTime": "10:00 AM - 10:30 AM",
-        "status": "Available",
+        "status": "Booked",
         "patientName":  "Amita Sharma",
         "patientEmail": "amita.sharma@example.com"
       },
@@ -1130,7 +1130,7 @@
         "scheduleId": 3,
         "doctorName": "Dr. Amit Patel",
         "slotTime": "09:30 AM - 10:00 AM",
-        "status": "Available",
+        "status": "Booked",
         "patientName": "Siddharth Mehta",
         "patientEmail": "siddharth.mehta@example.com"
       },
@@ -1139,7 +1139,7 @@
         "scheduleId": 3,
         "doctorName": "Dr. Amit Patel",
         "slotTime": "10:00 AM - 10:30 AM",
-        "status": "Available",
+        "status": "Booked",
         "patientName": "Aarti Patel",
         "patientEmail": "aarti.patel@example.com"
       },
@@ -1165,7 +1165,7 @@
         "scheduleId": 4,
         "doctorName": "Dr. Sanjay Gupta",
         "slotTime": "11:00 AM - 11:30 AM",
-        "status": "Available",
+        "status": "Booked",
         "patientName": "Rajiv Sharma",
         "patientEmail": "rajiv.sharma@example.com"
       },
@@ -1174,7 +1174,7 @@
         "scheduleId": 5,
         "doctorName": "Dr. Aarav Singh",
         "slotTime": "10:00 AM - 10:30 AM",
-        "status": "Available",
+        "status": "Booked",
         "patientName": "Nisha Gupta",
         "patientEmail": "nisha.gupta@example.com"
       },
@@ -1183,7 +1183,7 @@
         "scheduleId": 5,
         "doctorName": "Dr. Aarav Singh",
         "slotTime": "10:30 AM - 11:00 AM",
-        "status": "Available",
+        "status": "Booked",
         "patientName":  "Vivek Singh",
         "patientEmail": "vivek.singh@example.com"
       },
